@@ -28,3 +28,15 @@ print(unique_numbers)
 person = {"name": "James", "age": 21}
 person["city"] = "PH"
 print(person)
+
+#FUNCTION DEFINITION AND CALL
+def greet_user(username):
+    print("Hello, " + username + "!")
+greet_user(name)
+
+#LOOP EXAMPLE
+def square(x):
+    return x * x
+
+for i in range(10):
+    print(f"The square of {i} is {square(i)}")
